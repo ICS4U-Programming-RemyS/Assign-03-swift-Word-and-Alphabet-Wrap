@@ -1,0 +1,20 @@
+Valid: 
+r
+s
+t
+u
+v
+w
+x
+y
+z
+a
+b
+c
+
+Invalid: Remy is not a valid letter.
+a 
+Invalid: -2 is not a valid number.
+Invalid:  is not a valid letter.
+p 
+Invalid: Hello is not a valid number.
