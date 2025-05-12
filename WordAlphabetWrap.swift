@@ -157,7 +157,8 @@ func recWordWrap(sentence: String, maxChars: Int) -> String {
     }
 
     // Find the last space before maxChars to break the sentence
-    let endIndex = trimmed.index(trimmed.startIndex, offsetBy: maxChars, limitedBy: trimmed.endIndex) ?? trimmed.endIndex
+    let endIndex =
+    trimmed.index(trimmed.startIndex, offsetBy: maxChars, limitedBy: trimmed.endIndex) ?? trimmed.endIndex
     let beforeMax = String(trimmed[..<endIndex])
 
     // Check if there is a space to break the sentence
